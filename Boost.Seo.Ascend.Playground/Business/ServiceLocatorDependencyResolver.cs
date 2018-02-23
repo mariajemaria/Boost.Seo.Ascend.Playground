@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web.Mvc;
 using EPiServer.ServiceLocation;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     public class ServiceLocatorDependencyResolver : IDependencyResolver
     {

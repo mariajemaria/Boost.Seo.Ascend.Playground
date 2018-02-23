@@ -1,4 +1,4 @@
-namespace AlloySeo.Business.Rendering
+namespace Boost.Seo.Ascend.Playground.Business.Rendering
 {
     /// <summary>
     /// Defines a property for CSS class(es) which will be added to the class

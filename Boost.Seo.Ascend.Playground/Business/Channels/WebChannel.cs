@@ -1,7 +1,7 @@
 using System.Web;
 using EPiServer.Web;
 
-namespace AlloySeo.Business.Channels
+namespace Boost.Seo.Ascend.Playground.Business.Channels
 {
     /// <summary>
     /// Defines the 'Web' content channel

@@ -1,8 +1,8 @@
-using EPiServer.DataAnnotations;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using EPiServer.DataAnnotations;
 
-namespace AlloySeo
+namespace Boost.Seo.Ascend.Playground
 {
 
     public class Global

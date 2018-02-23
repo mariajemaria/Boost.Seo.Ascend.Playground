@@ -3,15 +3,15 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer;
 using EPiServer.Core;
 using EPiServer.Data;
 using EPiServer.Web;
 using EPiServer.Web.Routing;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     public class PageViewContextFactory
     {

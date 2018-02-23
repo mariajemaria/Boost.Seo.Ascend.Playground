@@ -5,7 +5,7 @@ using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 using EPiServer.Filters;
 
-namespace AlloySeo.Models.Blocks
+namespace Boost.Seo.Ascend.Playground.Models.Blocks
 {
     /// <summary>
     /// Used to insert a list of pages, for example a news list

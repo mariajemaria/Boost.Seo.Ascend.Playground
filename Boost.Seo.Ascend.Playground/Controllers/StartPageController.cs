@@ -1,13 +1,13 @@
 using System.Web.Mvc;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer.Security;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.Security;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     public class StartPageController : PageControllerBase<StartPage>
     {

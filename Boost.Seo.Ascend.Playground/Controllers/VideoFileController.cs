@@ -1,12 +1,12 @@
+using System;
 using System.Web.Mvc;
-using AlloySeo.Models.Media;
-using AlloySeo.Models.ViewModels;
+using Boost.Seo.Ascend.Playground.Models.Media;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
+using EPiServer.Core;
 using EPiServer.Web.Mvc;
 using EPiServer.Web.Routing;
-using System;
-using EPiServer.Core;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     /// <summary>
     /// Controller for the video file.

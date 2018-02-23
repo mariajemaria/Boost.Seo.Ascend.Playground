@@ -1,12 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using Boost.Seo.Ascend.Playground.Business.Rendering;
+using Boost.Seo.Ascend.Playground.Models.Properties;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
-using AlloySeo.Business.Rendering;
-using AlloySeo.Models.Properties;
 using EPiServer.Web;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Base class for all page types

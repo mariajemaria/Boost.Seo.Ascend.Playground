@@ -1,9 +1,9 @@
 using System.Web;
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
 using EPiServer.SpecializedProperties;
-using AlloySeo.Models.Blocks;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class LayoutModel
     {

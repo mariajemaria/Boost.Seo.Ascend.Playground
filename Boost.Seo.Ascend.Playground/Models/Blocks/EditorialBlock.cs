@@ -3,7 +3,7 @@ using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 
-namespace AlloySeo.Models.Blocks
+namespace Boost.Seo.Ascend.Playground.Models.Blocks
 {
     /// <summary>
     /// Used to insert editorial content edited using a rich-text editor

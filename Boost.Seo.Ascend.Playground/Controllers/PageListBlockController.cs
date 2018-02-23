@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Business;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
+using EPiServer;
 using EPiServer.Core;
 using EPiServer.Filters;
-using AlloySeo.Business;
-using AlloySeo.Models.Blocks;
-using AlloySeo.Models.ViewModels;
 using EPiServer.Web.Mvc;
-using EPiServer;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     public class PageListBlockController : BlockController<PageListBlock>
     {

@@ -1,4 +1,6 @@
-@model PageListModel
+@using Boost.Seo.Ascend.Playground.Helpers
+@using Boost.Seo.Ascend.Playground.Models.Pages
+@model Boost.Seo.Ascend.Playground.Models.ViewModels.PageListModel
 @Html.FullRefreshPropertiesMetaData(new[] { "IncludePublishDate", "IncludeIntroduction", "Count", "SortOrder", "Root", "PageTypeFilter", "CategoryFilter", "Recursive" })
 <h2 @Html.EditAttributes(x => x.Heading)>@Model.Heading</h2>
 <hr />

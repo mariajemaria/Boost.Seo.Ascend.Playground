@@ -6,14 +6,14 @@ using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.WebPages;
+using Boost.Seo.Ascend.Playground.Business;
+using EPiServer;
 using EPiServer.Core;
 using EPiServer.ServiceLocation;
-using AlloySeo.Business;
 using EPiServer.Web.Mvc.Html;
 using EPiServer.Web.Routing;
-using EPiServer;
 
-namespace AlloySeo.Helpers
+namespace Boost.Seo.Ascend.Playground.Helpers
 {
     public static class HtmlHelpers
     {

@@ -1,6 +1,6 @@
-using AlloySeo.Business.Rendering;
+using Boost.Seo.Ascend.Playground.Business.Rendering;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Used to logically group pages in the page tree

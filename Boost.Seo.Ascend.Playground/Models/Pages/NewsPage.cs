@@ -1,12 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using Boost.Seo.Ascend.Playground.Business;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
 using EPiServer.DataAbstraction;
 using EPiServer.Filters;
 using EPiServer.Framework.Localization;
 using EPiServer.ServiceLocation;
-using AlloySeo.Business;
-using AlloySeo.Models.Blocks;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Presents a news section including a list of the most recent articles on the site

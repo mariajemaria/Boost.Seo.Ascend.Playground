@@ -2,7 +2,7 @@ using System;
 using EPiServer;
 using EPiServer.Core;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class ContentRenderingErrorModel
     {

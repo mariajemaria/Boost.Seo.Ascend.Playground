@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using EPiServer;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.ServiceLocation;
 
-namespace AlloySeo.Helpers
+namespace Boost.Seo.Ascend.Playground.Helpers
 {
     /// <summary>
     /// Provides extension methods for categorizable content

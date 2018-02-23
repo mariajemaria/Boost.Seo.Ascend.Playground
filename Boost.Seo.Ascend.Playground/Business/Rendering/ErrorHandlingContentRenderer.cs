@@ -3,13 +3,13 @@ using System.IO;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.Security;
-using AlloySeo.Models.ViewModels;
 using EPiServer.Web.Mvc;
 
-namespace AlloySeo.Business.Rendering
+namespace Boost.Seo.Ascend.Playground.Business.Rendering
 {
     /// <summary>
     /// Wraps an MvcContentRenderer and adds error handling to ensure that blocks and other content

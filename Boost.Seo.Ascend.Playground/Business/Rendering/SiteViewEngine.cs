@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Web.Mvc;
 
-namespace AlloySeo.Business.Rendering
+namespace Boost.Seo.Ascend.Playground.Business.Rendering
 {
     /// <summary>
     /// Extends the Razor view engine to include the folders ~/Views/Shared/Blocks/ and ~/Views/Shared/PagePartials/

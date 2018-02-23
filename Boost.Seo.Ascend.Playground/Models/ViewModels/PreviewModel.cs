@@ -1,8 +1,8 @@
 using System.Collections.Generic;
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Core;
-using AlloySeo.Models.Pages;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class PreviewModel : PageViewModel<SitePageData>
     {

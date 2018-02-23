@@ -2,7 +2,7 @@ using System.Web.Optimization;
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 
-namespace AlloySeo.Business.Initialization
+namespace Boost.Seo.Ascend.Playground.Business.Initialization
 {
     [InitializableModule]
     public class BundleConfig : IInitializableModule

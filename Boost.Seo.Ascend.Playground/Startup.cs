@@ -1,5 +1,5 @@
 using System;
-using System.Web;
+using Boost.Seo.Ascend.Playground;
 using EPiServer.Cms.UI.AspNetIdentity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
@@ -7,9 +7,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-[assembly: OwinStartup(typeof(AlloySeo.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace AlloySeo
+namespace Boost.Seo.Ascend.Playground
 {
     public class Startup
     {

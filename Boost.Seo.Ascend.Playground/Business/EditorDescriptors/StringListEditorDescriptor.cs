@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using EPiServer.Shell.ObjectEditing.EditorDescriptors;
 using EPiServer.Shell.ObjectEditing;
+using EPiServer.Shell.ObjectEditing.EditorDescriptors;
 
-namespace AlloySeo.Business.EditorDescriptors
+namespace Boost.Seo.Ascend.Playground.Business.EditorDescriptors
 {
     /// <summary>
     /// Register an editor for StringList properties

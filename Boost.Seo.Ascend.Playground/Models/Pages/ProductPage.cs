@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using AlloySeo.Models.Blocks;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
-using AlloySeo.Models.Properties;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Used to present a single product

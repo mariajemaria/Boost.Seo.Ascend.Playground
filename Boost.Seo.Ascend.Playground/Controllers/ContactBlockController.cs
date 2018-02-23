@@ -1,15 +1,15 @@
 using System.Web;
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Helpers;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
+using EPiServer;
 using EPiServer.Core;
-using AlloySeo.Helpers;
-using AlloySeo.Models.Blocks;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
-using EPiServer;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     public class ContactBlockController : BlockController<ContactBlock>
     {

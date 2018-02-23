@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace AlloySeo
+namespace Boost.Seo.Ascend.Playground
 {
     public class EPiServerApplication : EPiServer.Global
     {

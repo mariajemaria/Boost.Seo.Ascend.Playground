@@ -1,8 +1,8 @@
 using System.Collections.Generic;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
 using EPiServer.Core;
-using AlloySeo.Models.Blocks;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class PageListModel
     {

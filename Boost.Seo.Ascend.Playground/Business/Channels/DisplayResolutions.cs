@@ -1,4 +1,4 @@
-namespace AlloySeo.Business.Channels
+namespace Boost.Seo.Ascend.Playground.Business.Channels
 {
     /// <summary>
     /// Defines resolution for desktop displays

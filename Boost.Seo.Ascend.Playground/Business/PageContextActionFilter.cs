@@ -1,9 +1,9 @@
 using System.Web.Mvc;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer.Web.Routing;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     /// <summary>
     /// Intercepts actions with view models of type IPageViewModel and populates the view models

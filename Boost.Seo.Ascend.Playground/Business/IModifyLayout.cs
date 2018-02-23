@@ -1,6 +1,6 @@
-using AlloySeo.Models.ViewModels;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     /// <summary>
     /// Defines a method which may be invoked by PageContextActionFilter allowing controllers

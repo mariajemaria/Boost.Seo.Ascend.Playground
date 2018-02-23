@@ -1,4 +1,4 @@
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Used primarily for publishing news articles on the website

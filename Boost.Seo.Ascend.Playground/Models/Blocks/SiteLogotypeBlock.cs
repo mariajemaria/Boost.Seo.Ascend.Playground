@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using EPiServer;
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 using EPiServer.Shell.ObjectEditing;
 using EPiServer.Web;
-using EPiServer;
 
-namespace AlloySeo.Models.Blocks
+namespace Boost.Seo.Ascend.Playground.Models.Blocks
 {
     /// <summary>
     /// Used to provide a composite property on the start page to set site logotype settings

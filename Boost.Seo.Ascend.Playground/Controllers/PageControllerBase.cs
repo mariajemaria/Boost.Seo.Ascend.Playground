@@ -1,11 +1,11 @@
 using System.Web.Mvc;
-using AlloySeo.Business;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
-using EPiServer.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Business;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer.Shell.Security;
+using EPiServer.Web.Mvc;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     /// <summary>
     /// All controllers that renders pages should inherit from this class so that we can

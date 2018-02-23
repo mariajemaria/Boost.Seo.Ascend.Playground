@@ -1,5 +1,5 @@
 
-namespace AlloySeo.Models.Blocks
+namespace Boost.Seo.Ascend.Playground.Models.Blocks
 {
     /// <summary>
     /// Base class for all block types on the site

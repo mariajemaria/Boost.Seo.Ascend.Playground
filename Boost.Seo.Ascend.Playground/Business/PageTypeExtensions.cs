@@ -2,7 +2,7 @@ using System;
 using EPiServer.DataAbstraction;
 using EPiServer.ServiceLocation;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     /// <summary>
     /// Provides extension methods for types intended to be used when working with page types

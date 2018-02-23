@@ -1,8 +1,7 @@
-using System;
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Core;
-using AlloySeo.Models.Pages;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class PageViewModel<T> : IPageViewModel<T> where T : SitePageData
     {

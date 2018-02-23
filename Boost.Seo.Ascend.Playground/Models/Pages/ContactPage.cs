@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using AlloySeo.Business.Rendering;
-using EPiServer.Web;
+using Boost.Seo.Ascend.Playground.Business.Rendering;
 using EPiServer.Core;
+using EPiServer.Web;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Represents contact details for a contact person

@@ -1,17 +1,17 @@
 using System.Linq;
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Business;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
+using EPiServer;
 using EPiServer.Core;
 using EPiServer.Framework.DataAnnotations;
 using EPiServer.Framework.Web;
-using AlloySeo.Business;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
+using EPiServer.Framework.Web.Mvc;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
-using EPiServer;
-using EPiServer.Framework.Web.Mvc;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     /* Note: as the content area rendering on Alloy is customized we create ContentArea instances
      * which we render in the preview view in order to provide editors with a preview which is as

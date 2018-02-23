@@ -2,7 +2,7 @@ using EPiServer.Framework.Localization;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 
-namespace AlloySeo.Business.Channels
+namespace Boost.Seo.Ascend.Playground.Business.Channels
 {
     /// <summary>
     /// Base class for all resolution definitions

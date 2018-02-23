@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Language="C#" Inherits="AlloySeo.EPiServerApplication" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Language="C#" Inherits="Boost.Seo.Ascend.Playground.EPiServerApplication" %>

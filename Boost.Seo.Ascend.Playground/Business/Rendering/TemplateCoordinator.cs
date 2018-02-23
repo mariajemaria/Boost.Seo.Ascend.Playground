@@ -1,13 +1,13 @@
+using Boost.Seo.Ascend.Playground.Controllers;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.ServiceLocation;
-using AlloySeo.Controllers;
-using AlloySeo.Models.Blocks;
-using AlloySeo.Models.Pages;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 
-namespace AlloySeo.Business.Rendering
+namespace Boost.Seo.Ascend.Playground.Business.Rendering
 {
     [ServiceConfiguration(typeof(IViewTemplateModelRegistrator))]
     public class TemplateCoordinator : IViewTemplateModelRegistrator

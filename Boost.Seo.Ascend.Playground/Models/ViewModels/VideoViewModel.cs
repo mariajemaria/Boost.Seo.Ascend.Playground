@@ -1,5 +1,5 @@
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     /// <summary>
     /// View model for the video file

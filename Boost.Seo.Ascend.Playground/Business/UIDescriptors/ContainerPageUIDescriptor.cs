@@ -1,8 +1,7 @@
-using EPiServer.Editor;
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Shell;
-using AlloySeo.Models.Pages;
 
-namespace AlloySeo.Business.UIDescriptors
+namespace Boost.Seo.Ascend.Playground.Business.UIDescriptors
 {
     /// <summary>
     /// Describes how the UI should appear for <see cref="ContainerPage"/> content.

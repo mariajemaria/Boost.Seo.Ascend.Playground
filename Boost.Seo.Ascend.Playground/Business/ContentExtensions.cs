@@ -4,9 +4,8 @@ using EPiServer.Core;
 using EPiServer.Filters;
 using EPiServer.Framework.Web;
 using EPiServer.ServiceLocation;
-using EPiServer;
 
-namespace AlloySeo.Business
+namespace Boost.Seo.Ascend.Playground.Business
 {
     /// <summary>
     /// Extension methods for content

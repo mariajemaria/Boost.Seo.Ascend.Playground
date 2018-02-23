@@ -1,12 +1,12 @@
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Business.Rendering;
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.ServiceLocation;
-using AlloySeo.Business.Rendering;
 using EPiServer.Web.Mvc;
 using EPiServer.Web.Mvc.Html;
 
-namespace AlloySeo.Business.Initialization
+namespace Boost.Seo.Ascend.Playground.Business.Initialization
 {
     [InitializableModule]
     public class DependencyResolverInitialization : IConfigurableModule

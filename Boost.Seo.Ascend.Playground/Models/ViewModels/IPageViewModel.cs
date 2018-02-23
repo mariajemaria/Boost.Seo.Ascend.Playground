@@ -1,7 +1,7 @@
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Core;
-using AlloySeo.Models.Pages;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     /// <summary>
     /// Defines common characteristics for view models for pages, including properties used by layout files.

@@ -1,10 +1,10 @@
-using System.Web;
 using System.ComponentModel.DataAnnotations;
-using AlloySeo.Models.Pages;
-using EPiServer.Web;
+using System.Web;
+using Boost.Seo.Ascend.Playground.Models.Pages;
 using EPiServer.Core;
+using EPiServer.Web;
 
-namespace AlloySeo.Models.ViewModels
+namespace Boost.Seo.Ascend.Playground.Models.ViewModels
 {
     public class ContactBlockModel
     {

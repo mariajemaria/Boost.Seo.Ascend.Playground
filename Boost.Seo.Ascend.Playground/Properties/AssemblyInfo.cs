@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AlloySeo")]
+[assembly: AssemblyTitle("Boost.Seo.Ascend.Playground")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AlloySeo")]
+[assembly: AssemblyProduct("Boost.Seo.Ascend.Playground")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5f2316a8-b529-41c4-9a31-60fe5ab97180")]
+[assembly: Guid("0DAE9FE0-7192-4A7C-AE82-1726988BE204")]
 
 // Version information for an assembly consists of the following four values:
 //

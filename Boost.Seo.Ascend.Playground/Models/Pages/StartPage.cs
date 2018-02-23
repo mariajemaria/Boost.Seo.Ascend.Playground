@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using Boost.Seo.Ascend.Playground.Models.Blocks;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 using EPiServer.SpecializedProperties;
-using AlloySeo.Models.Blocks;
 
-namespace AlloySeo.Models.Pages
+namespace Boost.Seo.Ascend.Playground.Models.Pages
 {
     /// <summary>
     /// Used for the site's start page and also acts as a container for site settings

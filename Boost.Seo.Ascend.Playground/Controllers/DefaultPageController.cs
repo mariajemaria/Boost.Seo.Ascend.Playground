@@ -1,11 +1,11 @@
 using System;
 using System.Web.Mvc;
+using Boost.Seo.Ascend.Playground.Models.Pages;
+using Boost.Seo.Ascend.Playground.Models.ViewModels;
 using EPiServer;
 using EPiServer.Framework.DataAnnotations;
-using AlloySeo.Models.Pages;
-using AlloySeo.Models.ViewModels;
 
-namespace AlloySeo.Controllers
+namespace Boost.Seo.Ascend.Playground.Controllers
 {
     /// <summary>
     /// Concrete controller that handles all page types that don't have their own specific controllers.
