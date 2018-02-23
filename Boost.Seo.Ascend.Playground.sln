@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boost.Seo.Ascend.Playground", "Boost.Seo.Ascend.Playground\Boost.Seo.Ascend.Playground.csproj", "{EDE6896D-91D2-49AE-AEA8-E2972AFEAB91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE6896D-91D2-49AE-AEA8-E2972AFEAB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE6896D-91D2-49AE-AEA8-E2972AFEAB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE6896D-91D2-49AE-AEA8-E2972AFEAB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE6896D-91D2-49AE-AEA8-E2972AFEAB91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {378B61A1-2FB8-4BDA-AAAD-B4B27A12F201}
+	EndGlobalSection
+EndGlobal
