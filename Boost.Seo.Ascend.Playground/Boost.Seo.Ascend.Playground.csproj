@@ -405,17 +405,19 @@
     </Content>
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
     <Content Include="App_Data\GeoLiteCity.dat" />
-    <None Include="EPiServerLog.config" />
+    <None Include="EPiServerLog.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
-    <Content Include="module.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
     <Content Include="multi-pack.ps1" />
+    <Content Include="module.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Views\_viewstart.cshtml" />
     <Content Include="Views\VideoFile\Index.cshtml" />
