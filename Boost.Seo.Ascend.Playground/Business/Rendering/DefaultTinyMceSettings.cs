@@ -1,11 +1,13 @@
 ﻿using EPiServer.Core.PropertySettings;
 using EPiServer.Editor.TinyMCE;
 using EPiServer.Security;
+using EPiServer.ServiceLocation;
 using System;
 using System.Collections.Generic;
 
 namespace Boost.Seo.Ascend.Playground.Business.Rendering
 {
+    [ServiceConfiguration(ServiceType = typeof(PropertySettings))]
     public class DefaultTinyMceSettings : PropertySettings<TinyMCESettings>
     {
         public override Guid ID => new Guid("29b4d928-1928-4844-91fc-7e78ad9c0321");
