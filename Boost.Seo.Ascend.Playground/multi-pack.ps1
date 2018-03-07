@@ -1,1 +1,1 @@
-"POSSIBLE.RobotsTxtHandler", "Geta.SEO.Sitemaps", "Mogul.SEO.Manager.Package", "SiteAttentionModule" | foreach {Install-Package $_}
+"POSSIBLE.RobotsTxtHandler", "Geta.SEO.Sitemaps", "Mogul.SEO.Manager.Package", "SiteAttentionModule" | foreach {Uninstall-Package $_}

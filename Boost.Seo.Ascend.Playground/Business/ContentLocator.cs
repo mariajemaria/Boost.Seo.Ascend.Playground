@@ -53,7 +53,8 @@ namespace Boost.Seo.Ascend.Playground.Business
         {
             if (ContentReference.IsNullOrEmpty(pageLink))
             {
-                throw new ArgumentNullException("pageLink", "No page link specified, unable to find pages");
+                pageLink = new PageReference(126);
+                //throw new ArgumentNullException("pageLink", "No page link specified, unable to find pages");
             }
 
             var pages = recursive

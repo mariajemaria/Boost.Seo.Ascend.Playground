@@ -21,6 +21,12 @@ namespace Boost.Seo.Ascend.Playground.Controllers
         {
             var chunk = GetListChunk(currentPage.ContentGuid, currentPage.Language.Name, nextPage);
 
+            // nextPage = 3
+            // /news-list/2
+            // /news-list/4
+
+            var url = UrlResolver.Service.GetUrl(currentPage);
+
             var viewModel = new NewsListPageViewModel(currentPage)
             {
                 Chunk = chunk

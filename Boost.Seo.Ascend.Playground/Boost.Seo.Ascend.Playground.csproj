@@ -132,6 +132,9 @@
     <Reference Include="EPiServer.Web.WebControls, Version=11.3.3.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.CMS.AspNet.11.3.3\lib\net461\EPiServer.Web.WebControls.dll</HintPath>
     </Reference>
+    <Reference Include="Geta.SEO.Sitemaps, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Geta.SEO.Sitemaps.2.0.4\lib\net461\Geta.SEO.Sitemaps.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
@@ -163,6 +166,12 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Mogul.SeoManager, Version=5.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mogul.SEO.Manager.Package.5.1.0.0\lib\net461\Mogul.SeoManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Mogul.SeoManager.Commerce, Version=5.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mogul.SEO.Manager.Package.5.1.0.0\lib\net461\Mogul.SeoManager.Commerce.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -171,6 +180,12 @@
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="POSSIBLE.RobotsTxtHandler, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\POSSIBLE.RobotsTxtHandler.4.0.0.0\lib\net45\POSSIBLE.RobotsTxtHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="SiteAttentionModule, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SiteAttentionModule.3.2.1.0\lib\net461\SiteAttentionModule.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=4.6.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StructureMap.4.6.1\lib\net45\StructureMap.dll</HintPath>
@@ -282,11 +297,14 @@
     <Compile Include="Business\Initialization\DisplayModesInitialization.cs" />
     <Compile Include="Business\Initialization\DisplayRegistryInitialization.cs" />
     <Compile Include="Business\Initialization\FilterConfig.cs" />
+    <Compile Include="Business\Initialization\RouteConfig.cs" />
     <Compile Include="Business\PageContextActionFilter.cs" />
     <Compile Include="Business\PageTypeExtensions.cs" />
     <Compile Include="Business\PageViewContextFactory.cs" />
+    <Compile Include="Business\ParameterPartialRouter.cs" />
     <Compile Include="Business\PasteAutoAndExtendedValid.cs" />
     <Compile Include="Business\Rendering\AlloyContentAreaRenderer.cs" />
+    <Compile Include="Business\Rendering\DefaultTinyMceSettings.cs" />
     <Compile Include="Business\Rendering\ErrorHandlingContentRenderer.cs" />
     <Compile Include="Business\Rendering\IContainerPage.cs" />
     <Compile Include="Business\Rendering\ICustomCssInContentArea.cs" />
@@ -294,6 +312,7 @@
     <Compile Include="Business\Rendering\TemplateCoordinator.cs" />
     <Compile Include="Business\ServiceLocatorDependencyResolver.cs" />
     <Compile Include="Business\UIDescriptors\ContainerPageUIDescriptor.cs" />
+    <Compile Include="Business\WarningDescriptionEmpty.cs" />
     <Compile Include="Controllers\ContactBlockController.cs" />
     <Compile Include="Controllers\DefaultPageController.cs" />
     <Compile Include="Controllers\ImageFileController.cs" />
@@ -358,6 +377,24 @@
     <Content Include="ClientResources\Styles\LayoutIcons.css" />
     <Content Include="ClientResources\Styles\Styles.css" />
     <Content Include="favicon.ico" />
+    <Content Include="modules\Geta.SEO.Sitemaps\AdminManageSitemap.aspx" />
+    <Content Include="modules\POSSIBLE.RobotsTxtHandler\Views\RobotsTxtAdmin\Index.aspx" />
+    <Content Include="modules\_protected\Mogul.SEO.Manager.Package\Logic\PackageInitializer\mogulSections.xml" />
+    <Content Include="modules\_protected\SiteAttentionModule\ClientResources\Scripts\CommandProviders\SiteAttentionCommandProvider.js" />
+    <Content Include="modules\_protected\SiteAttentionModule\ClientResources\Scripts\Components\SiteAttentionWidget.js" />
+    <Content Include="modules\_protected\SiteAttentionModule\ClientResources\Scripts\SiteAttentionContent.js" />
+    <Content Include="modules\_protected\SiteAttentionModule\ClientResources\Scripts\SiteAttentionModule.js" />
+    <Content Include="modules\_protected\SiteAttentionModule\ClientResources\Styles\SiteAttentionStyle.css" />
+    <Content Include="modules\_protected\SiteAttentionModule\Resources\Images\SpriteTools.png" />
+    <Content Include="modules\_protected\SiteAttentionModule\Resources\Images\ToolButtonBg.gif" />
+    <Content Include="modules\_protected\SiteAttentionModule\Resources\Styles\SiteAttention.css" />
+    <Content Include="modules\_protected\SiteAttentionModule\SiteAttentionAdmin.aspx" />
+    <Content Include="MogulSeoManagerCommerceMobileSitemap.aspx" />
+    <Content Include="MogulSeoManagerCommerceSitemap.aspx" />
+    <Content Include="MogulSeoManagerMobileSitemap.aspx" />
+    <Content Include="MogulSeoManagerPageGone.aspx" />
+    <Content Include="MogulSeoManagerPageNotFound.aspx" />
+    <Content Include="MogulSeoManagerSitemap.aspx" />
     <Content Include="Resources\LanguageFiles\ContentTypeNames.xml" />
     <Content Include="Resources\LanguageFiles\Display.xml" />
     <Content Include="Resources\LanguageFiles\EditorHints.xml" />
@@ -365,6 +402,7 @@
     <Content Include="Resources\LanguageFiles\PropertyNames.xml" />
     <Content Include="Resources\LanguageFiles\Views.xml" />
     <Content Include="Resources\LanguageFiles\_ReadMe.txt" />
+    <Content Include="siteattention-instance.txt" />
     <Content Include="Static\css\bootstrap-collapse.js" />
     <Content Include="Static\css\bootstrap-responsive.css" />
     <Content Include="Static\css\bootstrap.css" />
@@ -427,6 +465,11 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="MogulSEOLicense.config" />
+    <Content Include="modules\POSSIBLE.RobotsTxtHandler\Views\Shared\AdminPlugin.Master" />
+    <Content Include="modules\_protected\Mogul.SEO.Manager.Package\Mogul.SEO.Manager.Package.zip" />
+    <Content Include="modules\_protected\Mogul.SEO.Manager.Package\module.config" />
+    <Content Include="modules\_protected\Mogul.SEO.Manager.Package\Logic\Common\Cache\web.config" />
+    <Content Include="modules\_protected\SiteAttentionModule\module.config" />
     <None Include="packages.config" />
     <Content Include="Views\_viewstart.cshtml" />
     <Content Include="Views\VideoFile\Index.cshtml" />
