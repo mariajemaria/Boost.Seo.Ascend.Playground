@@ -1,0 +1,12 @@
+@model ListChunk
+
+@Html.PropertyFor(m => m.List)
+
+@if (Model.ShowNextPage)
+{
+    <a href="@Model.FallbackUrl" class="js-show-more"
+        data-content-guid="@Model.ContentGuid"
+        data-next-page="@Model.NextPage"
+        data-language-code="@Model.LanguageCode"
+        data-url="@Model.LoadMoreUrl">@Model.ReadMoreNewsListText</a>
+}
