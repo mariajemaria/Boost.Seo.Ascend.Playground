@@ -40,18 +40,18 @@ namespace Boost.Seo.Ascend.Playground.Business
             var startPage = _contentLoader.Get<StartPage>(startPageContentLink);
 
             return new LayoutModel
-                {
-                    Logotype = startPage.SiteLogotype,
-                    LogotypeLinkUrl = new MvcHtmlString(_urlResolver.GetUrl(SiteDefinition.Current.StartPage)),
-                    ProductPages = startPage.ProductPageLinks,
-                    CompanyInformationPages = startPage.CompanyInformationPageLinks,
-                    NewsPages = startPage.NewsPageLinks,
-                    CustomerZonePages = startPage.CustomerZonePageLinks,
-                    LoggedIn = requestContext.HttpContext.User.Identity.IsAuthenticated,
-                    LoginUrl = new MvcHtmlString(GetLoginUrl(currentContentLink)),
-                    SearchActionUrl = new MvcHtmlString(EPiServer.Web.Routing.UrlResolver.Current.GetUrl(startPage.SearchPageLink)),
-                    IsInReadonlyMode = _databaseMode.DatabaseMode == DatabaseMode.ReadOnly
-                };
+            {
+                Logotype = startPage.SiteLogotype,
+                LogotypeLinkUrl = new MvcHtmlString(_urlResolver.GetUrl(SiteDefinition.Current.StartPage)),
+                ProductPages = startPage.ProductPageLinks,
+                CompanyInformationPages = startPage.CompanyInformationPageLinks,
+                NewsPages = startPage.NewsPageLinks,
+                CustomerZonePages = startPage.CustomerZonePageLinks,
+                LoggedIn = requestContext.HttpContext.User.Identity.IsAuthenticated,
+                LoginUrl = new MvcHtmlString(GetLoginUrl(currentContentLink)),
+                SearchActionUrl = new MvcHtmlString(_urlResolver.GetUrl(startPage.SearchPageLink)),
+                IsInReadonlyMode = _databaseMode.DatabaseMode == DatabaseMode.ReadOnly
+            };
         }
 
         private string GetLoginUrl(ContentReference returnToContentLink)

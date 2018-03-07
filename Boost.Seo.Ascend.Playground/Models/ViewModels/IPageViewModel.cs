@@ -15,5 +15,6 @@ namespace Boost.Seo.Ascend.Playground.Models.ViewModels
         T CurrentPage { get; }
         LayoutModel Layout { get; set; }
         IContent Section { get; set; }
+        RelMetaModel RelMeta { get; set; }
     }
 }

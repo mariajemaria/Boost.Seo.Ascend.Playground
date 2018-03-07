@@ -13,6 +13,7 @@ namespace Boost.Seo.Ascend.Playground.Models.ViewModels
         public T CurrentPage { get; private set; }
         public LayoutModel Layout { get; set; }
         public IContent Section { get; set; }
+        public RelMetaModel RelMeta { get; set; }
     }
 
     public static class PageViewModel

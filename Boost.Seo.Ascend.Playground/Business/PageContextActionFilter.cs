@@ -45,6 +45,11 @@ namespace Boost.Seo.Ascend.Playground.Business
                 {
                     model.Section = _contextFactory.GetSection(currentContentLink);
                 }
+
+                if (model.RelMeta == null)
+                {
+                    model.RelMeta = new RelMetaModel();
+                }
             }
         }
 
