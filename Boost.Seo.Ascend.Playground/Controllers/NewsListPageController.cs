@@ -29,7 +29,12 @@ namespace Boost.Seo.Ascend.Playground.Controllers
 
             var viewModel = new NewsListPageViewModel(currentPage)
             {
-                Chunk = chunk
+                Chunk = chunk,
+                RelMeta = new RelMetaModel
+                {
+                    RelPrev = nextPage > 1 ? $"{url}{nextPage - 1}" : "",
+                    RelNext = chunk.ShowNextPage ? $"{url}{nextPage + 1}" : ""
+                }
             };
 
             return View(viewModel);
@@ -88,7 +93,7 @@ namespace Boost.Seo.Ascend.Playground.Controllers
                 LanguageCode = currentPage.Language.Name,
                 ContentGuid = currentPage.ContentGuid,
                 ReadMoreNewsListText = "Show more",
-                FallbackUrl = $"{UrlResolver.Service.GetUrl(currentPage.ContentLink)}?nextPage={nextPage}",
+                FallbackUrl = $"{UrlResolver.Service.GetUrl(currentPage.ContentLink)}{nextPage}",
                 LoadMoreUrl = $"{UrlResolver.Service.GetUrl(currentPage.ContentLink)}more"
             };
 

@@ -16,7 +16,7 @@ namespace Boost.Seo.Ascend.Playground.Business.Initialization
 
         public void RegisterRoutes(RouteCollection routes)
         {
-            // register routes here
+            routes.RegisterPartialRouter(new ParameterPartialRouter());
         }
 
         public void Uninitialize(InitializationEngine context)

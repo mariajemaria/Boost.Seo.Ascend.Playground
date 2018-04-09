@@ -9,12 +9,22 @@ namespace Boost.Seo.Ascend.Playground.Business
     {
         public PartialRouteData GetPartialVirtualPath(NewsListPage content, string language, RouteValueDictionary routeValues, RequestContext requestContext)
         {
-            throw new System.NotImplementedException();
+            return null;
         }
 
         public object RoutePartial(NewsListPage content, SegmentContext segmentContext)
         {
-            throw new System.NotImplementedException();
+            var remainingPath = segmentContext.RemainingPath;
+
+            var nextValue = segmentContext.GetNextValue(remainingPath);
+
+            if (int.TryParse(nextValue.Next, out int pageNumber))
+            {
+                segmentContext.RouteData.Values["nextPage"] = pageNumber;
+                segmentContext.RemainingPath = nextValue.Remaining;
+            }
+
+            return content;
         }
     }
 }
